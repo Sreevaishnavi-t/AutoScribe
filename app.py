@@ -15,7 +15,7 @@ st.divider()
 # Sidebar for Settings
 with st.sidebar:
     st.header("⚙️ Settings")
-    api_key = st.text_input("Gemini API Key", type="password", help="Get a free key from aistudio.google.com")
+    api_key = st.text_input("Enter your gemini API key", type="password", help="Get a free key from aistudio.google.com")
     st.divider()
     
     if mode == "Generate New Document":
